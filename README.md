@@ -1,0 +1,1 @@
+Creating a constant variable and printing it to the console.
