@@ -7,7 +7,7 @@ if (myArgument === undefined) {
 console.log("Argument found");
 }
   
-else if (myArguement=="Best School"){
+else if (myArgument=="Best School"){
   cosole.log("Arguments found");
 }
 
