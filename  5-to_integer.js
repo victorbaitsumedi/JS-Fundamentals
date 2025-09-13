@@ -11,7 +11,7 @@ You are not allowed to use try/catch
 const convert_to_interger = process.argv[2];  // first argument as string
 const myNumber = parseInt(convert_to_interger); // convert to integer
 
-if (Number.isNaN(myNumber)) {
+if (myNumber.isNaN(myNumber)) {
   console.log("Not a number");
 } else {
   console.log(`My number: ${myNumber}`);
