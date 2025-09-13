@@ -1,14 +1,14 @@
-const myArgument = process.argv[2];
+const myArgument = process.argv.slice(2);
 
-if (myArgument === undefined) {
+if (myArgument.length < 1) {
   console.log('No argument');
 
-} else if (myArgument=="Best"){
+} else if (myArgument.length ==1){
 console.log("Argument found");
 }
   
-else if (myArgument=="Best School"){
-  cosole.log("Arguments found");
+else if (myArgument.length ==3){
+  console.log("Arguments found");
 }
 
 else
